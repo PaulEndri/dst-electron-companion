@@ -1,0 +1,17 @@
+{
+  "name": "dst-crockpot-companion-app",
+  "productName": "DST-CrockpotCompanion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Paul Endri",
+    "email": "abrecan.eyndrill@gmail.com"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "npm run electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
